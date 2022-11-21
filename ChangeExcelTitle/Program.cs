@@ -30,10 +30,10 @@ namespace ChangeExcelTitle
 
                 //入力文字
                 string yn = Console.ReadLine();
-                Console.WriteLine();
 
                 if (yn == "y")
                 {
+
                     //yなら続行
                     break;
                 }
@@ -140,7 +140,7 @@ namespace ChangeExcelTitle
                     package.Save();
 
                     //変換したよ
-                    Console.WriteLine("{0}を変換しました。", filename);
+                    Console.WriteLine("{0}を変換しました。タイトル={1}", filename, title);
                     Console.WriteLine();
                     cnt++;
 
