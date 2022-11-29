@@ -123,11 +123,6 @@ namespace ChangeExcelTitle
                     {
                         title = string.Format("点検表（{0}）", "道路照明");
                     }
-                    else if(type == "カーブミラー")
-                    {
-                        //カーブミラーなら
-                        title = "その他（カーブミラー）";
-                    }
                     else
                     {
                         //それ以外
@@ -136,6 +131,12 @@ namespace ChangeExcelTitle
 
                     //タイトル変換
                     sh.Cells["A1"].Value = title;
+
+                    if(type == "カーブミラー")
+                    {
+                        sh.Cells["B2"].Value = "その他（カーブミラー）";
+                    }
+
                     //保存
                     package.Save();
 
