@@ -5,6 +5,10 @@ VisualStudioVersion = 17.4.33103.184
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ChangeExcelTitle", "ChangeExcelTitle\ChangeExcelTitle.csproj", "{9CF25E52-E9C8-412D-BB88-433BC8BECCFC}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MergeAichanJson", "MergeAichanJson\MergeAichanJson.csproj", "{CD00487A-46D3-4DB4-9B96-C746A6DEB891}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "IntegradeMovieJson", "IntegradeMovieJson\IntegradeMovieJson.csproj", "{3EA46C0F-D84B-472A-8923-38B575D2736B}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -15,6 +19,14 @@ Global
 		{9CF25E52-E9C8-412D-BB88-433BC8BECCFC}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{9CF25E52-E9C8-412D-BB88-433BC8BECCFC}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{9CF25E52-E9C8-412D-BB88-433BC8BECCFC}.Release|Any CPU.Build.0 = Release|Any CPU
+		{CD00487A-46D3-4DB4-9B96-C746A6DEB891}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CD00487A-46D3-4DB4-9B96-C746A6DEB891}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CD00487A-46D3-4DB4-9B96-C746A6DEB891}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CD00487A-46D3-4DB4-9B96-C746A6DEB891}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3EA46C0F-D84B-472A-8923-38B575D2736B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3EA46C0F-D84B-472A-8923-38B575D2736B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3EA46C0F-D84B-472A-8923-38B575D2736B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3EA46C0F-D84B-472A-8923-38B575D2736B}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
